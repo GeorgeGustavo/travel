@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Oswald", sans-serif;
+    background-image: linear-gradient( 89.8deg, rgb(129, 255, 255) 4.7%, rgb(214, 216, 87) 120.3%);
+  }
+  
+  nav {
+    background: rgb(0, 68, 48);
+    height: 70px;
+    width: 100%;
+  }
+  
+  nav ul {
+    float: right;
+    margin-right: 20px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  
+  nav ul li a {
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 7px;
+  }
+  
+  a.active,
+  a:hover {
+    background: #161616;
+    transition: .5s;
+  }
+  
+  .logo {
+    width: 70px;
+    height: 60px;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+  }
+
+  header {
+    background-color: #333;
+    color: #9e9e9e;
+    padding: 20px;
+    
+}
+
+header h1 {
+    margin: 0;
+    
+}
+
+.banner {
+    background-size: cover;
+    color: #000000;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #fcfcfc;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.destinations {
+    padding: 20px;
+}
+
+.destination {
+    margin-bottom: 20px;
+}
+
+.destination img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #140038;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.coin {
+    flex: 1 1 240px;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #30303034;
+    transition: background-color 0.2s ease;
+}
+.coin:hover{
+    background-color: #3030308b;
+}
+
+.coin img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.coin h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: white;
+}
+
+.coin p {
+    margin: 5px 0;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .coins {
+        padding: 10px;
+    }
+
+    .coin {
+        flex: 1 1 250px;
+    }
+}
+
+
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.mission {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.mission:hover {
+  transform: scale(1.05);
+}
+
+.mission-image {
+  flex: 1;
+  max-width: 200px;
+  overflow: hidden;
+}
+
+.mission-image img {
+  width: 100%;
+  height: auto;
+}
+
+.mission-details {
+  flex: 2;
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.mission-price {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.mission-guidance {
+  font-style: italic;
+}
+
+
+.guide-card {
+  display: flex;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.guide-image {
+  flex: 1;
+  max-width: 200px;
+  overflow: hidden;
+}
+
+.guide-image img {
+  width: 100%;
+  height: auto;
+}
+
+.guide-details {
+  flex: 2;
+  padding: 20px;
+}
+
+.guide-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+.guide-review {
+  color: #f8d301;
+  margin: 0 0 10px 0;
+}
+
+.guide-description {
+  margin: 0;
+}
+
+.guide-card {
+  transform: scale(1.05);
+}
